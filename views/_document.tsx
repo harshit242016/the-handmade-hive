@@ -10,7 +10,8 @@ export default class extends Document {
     return (
       <html lang="en">
         <Head>
-          <title>react-ssr-nestjs-starter</title>
+        <link href="/dist/output.css" rel="stylesheet"/>
+ <title>react-ssr-nestjs-starter</title>
         </Head>
         <body>
           <Main />
